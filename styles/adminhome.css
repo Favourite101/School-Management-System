@@ -1,0 +1,93 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+nav
+{
+    position: fixed;
+    background-color: skyblue;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+}
+
+nav a:hover
+{
+    color: black !important;
+}
+
+.logo
+{
+    font-size: 30px;
+    position: relative;
+    left: 5%;
+    top: 15px;
+}
+
+button
+{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a
+{
+    text-decoration: none !important;
+    color: rgb(99, 98, 98) !important;
+}
+
+#_logout
+{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: rgb(243, 66, 66);
+}
+
+.glyphicon
+{
+    padding-right: 5px;
+}
+
+.menu
+{
+    padding-top: 60px;
+    background-color: blue;
+    width: 16%;
+    height: 100%;
+    text-align: center;
+    position: fixed;
+}
+
+ul li
+{
+    list-style: none;
+    padding-bottom: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+ul li a
+{
+    color: white !important;
+}
+
+ul li a:hover
+{
+    color: black !important;
+}
+
+.message
+{
+    padding-top: 30px;
+    padding-left: 550px;
+    width: 1000px;
+    text-align: justify;
+}
+
+h1
+{
+    text-align: center;
+}

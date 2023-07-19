@@ -1,0 +1,122 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+nav
+{
+    position: fixed;
+    background-color: skyblue;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+}
+
+nav a
+{
+    text-decoration: none !important;
+    color: rgb(99, 98, 98) !important;
+}
+
+nav a:hover
+{
+    color: black !important;
+}
+
+.logo
+{
+    font-size: 30px;
+    position: relative;
+    left: 5%;
+    top: 15px;
+}
+
+.div1
+{
+    position: relative;
+    right: 5%;
+    top: 30%;
+    float: right;
+    display: flex;
+    gap: 5px;
+}
+
+button
+{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.whole
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(54, 112, 134);
+    width: 700px;
+    height: 450px;
+    padding-left: 150px;
+    padding-right: 120px;
+    font-size: 20px;
+}
+
+.head1
+{
+    text-align: center;
+    padding: 10px;
+}
+
+.box, .submit
+{
+    border: 2px solid black;
+    height: 50px;
+    width: 400px;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 17px;
+}
+
+.submit
+{
+    border-radius: 50px;
+    font-size: large;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+.link1
+{
+    font-size: small;
+    padding: 0;
+}
+.link1:hover
+{
+    color: red;
+}
+
+.username, .password
+{
+    font-weight: bold;
+}
+
+.fa-eye
+{
+    margin-left: -40px;
+    cursor: pointer;
+}
+
+#error_message
+{
+    background-color: red;
+    text-align: center;
+    width: 400px;
+}
